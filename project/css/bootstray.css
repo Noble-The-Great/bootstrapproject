@@ -1,0 +1,45 @@
+#top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  background-color: black;
+  color: white;
+}
+#top h2 {
+  display: flex;
+  align-content: center;
+  margin-left: 30px;
+}
+#top .links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+#top .links a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+#cards .card {
+  margin: 20px 20px;
+}
+
+.textinbox {
+  position: relative;
+  top: 50%;
+  left: 45%;
+}
+.textinbox h1 {
+  color: white;
+}
+.textinbox button {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=bootstray.css.map */

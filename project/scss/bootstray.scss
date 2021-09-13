@@ -1,0 +1,45 @@
+#top{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 0px;
+ background-color: black;
+ color: white ;
+
+ h2{
+     display: flex;
+     align-content: center;
+     margin-left: 30px;
+ }
+ .links{
+     margin-right: 20px;
+     display: flex;
+     align-items: center;
+     a{
+         margin-right: 20px;
+         text-decoration: none;
+     }
+ }
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    background-color: black;
+    .card{
+        margin:20px 20px;
+        
+    }
+    
+}
+.textinbox{
+    position: relative;
+    top:50%;
+    left: 45%;
+   h1{
+       color: white;
+   }
+   button{
+       margin-left: 30px;
+   }
+}
