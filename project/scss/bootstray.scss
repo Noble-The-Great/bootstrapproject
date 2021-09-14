@@ -9,6 +9,9 @@
      display: flex;
      align-content: center;
      margin-left: 30px;
+
+          
+     }
  }
  .links{
      margin-right: 20px;
@@ -19,7 +22,7 @@
          text-decoration: none;
      }
  }
-}
+
 #cards{
     display: flex;
     justify-content: center;
@@ -41,5 +44,15 @@
    }
    button{
        margin-left: 30px;
+   }
+}
+
+
+@media only screen and (max-width: 900px) {
+   #top h2 {
+    display:none;
+    }
+  #top {
+       justify-content: center;
    }
 }
